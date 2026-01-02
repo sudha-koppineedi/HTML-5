@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentRows and cols span</title>
+
+    <style>
+        thead{
+            background-color:hotpink;
+            color: aliceblue;
+        } 
+        tbody{
+            background-color:darkgray;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <table border="black">
+    <thead>
+        <tr>
+            <th rowspan="2 ">Emp id</th>
+            <th rowspan="2">Name</th>
+            <th rowspan="2">Department</th>
+            <th rowspan="2">Designation</th>
+             <th colspan="2">marks</th>
+            <th rowspan="2">Salary</th>
+            <th rowspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Emp 101</td>
+            <td>ALice</td>
+            <td>HR</td>
+            <td>Manager</td>
+            <td colspan="2">alice.hr@mail.com</td>
+           <!--<td>123455678</td>--> 
+            <td>56000</td>
+            <td>malikipuram</td>
+        </tr>
+        <tr>
+            <td>Emp 101</td>
+            <td>ALice</td>
+            <td>HR</td>
+            <td>Manager</td>
+            <td>alice.hr@mail.com</td>
+            <td>123455678</td>
+            <td>56000</td>
+            <td>malikipuram</td>
+        </tr>
+        <tr>
+            <td>Emp 101</td>
+            <td>ALice</td>
+            <td>HR</td>
+            <td>Manager</td>
+            <td>alice.hr@mail.com</td>
+            <td>123455678</td>
+            <td>56000</td>
+            <td>malikipuram</td>
+        </tr>
+
+    </tbody>
+</table>
+    
+</body>
+</html>
